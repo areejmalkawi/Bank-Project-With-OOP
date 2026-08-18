@@ -25,6 +25,12 @@ public:
 
 	static void ShowDeleteClientScreen() {
 
+		if (!CheckAccessRights(clsUser::enPermissions::pDeleteClient)) {
+
+			return;
+		}
+
+
 		string AccountNumber;
 
 		_DrawScreenHeader("Delete Client Screen");

@@ -47,6 +47,11 @@ public:
 
 	static void ShowAddNewClientScreen() {
 
+		if (!CheckAccessRights(clsUser::enPermissions::pAddNewClient)) {
+
+			return;
+		}
+
 		string AccountNumber;
 
 		clsScreen::_DrawScreenHeader("Add New Client Screen");

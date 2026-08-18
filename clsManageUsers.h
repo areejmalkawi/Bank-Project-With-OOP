@@ -109,6 +109,12 @@ public:
 
 		system("cls");
 
+		if (!CheckAccessRights(clsUser::enPermissions::pManageUsers)) {
+
+			return;
+		}
+
+
 		_DrawScreenHeader("Manage Users Screen");
 
 		cout << setw(37) << left << ""<< "============================================\n";
