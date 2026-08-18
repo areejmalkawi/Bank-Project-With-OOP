@@ -86,10 +86,10 @@ class clsMainScreen : protected clsScreen
 
 	}
 
-	static void _Login() {
 
-		cout << "\nLogin Screen Will Be Here... \n";
+	static void _Logout() {
 
+		CurrentUser = clsUser::Find("", "");
 	}
 
 	static void _PerformMainMenuOption(enMainMenuOptions MainMenuOption) {
@@ -145,7 +145,7 @@ class clsMainScreen : protected clsScreen
 
 		case(enMainMenuOptions::eLogOut):
 			system("cls");
-			_Login();
+			_Logout();
 			break;
 		}
 	}
