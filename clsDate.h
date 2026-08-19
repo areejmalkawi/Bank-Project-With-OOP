@@ -62,7 +62,7 @@ public:
 		_Year = Year;
 	}
 
-	short SetYear() {
+	short GetYear() {
 		return _Year;
 	}
 
@@ -72,7 +72,7 @@ public:
 		_Month = Month;
 	}
 
-	short SetMonth() {
+	short GetMonth() {
 		return _Month;
 	}
 
@@ -82,7 +82,7 @@ public:
 		_Day = Day;
 	}
 
-	short SetDay() {
+	short GetDay() {
 		return _Day;
 	}
 
