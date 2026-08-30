@@ -4,3 +4,4 @@
 
 clsUser CurrentUser = clsUser::Find("", "");
 
+string UserName = CurrentUser.UserName;
