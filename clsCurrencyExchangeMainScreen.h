@@ -3,6 +3,7 @@
 #include "clsScreen.h"
 #include "clsInputValidate.h"
 #include <iomanip>
+#include "clsCurrenciesListScreen.h"
 
 using namespace std;
 
@@ -31,7 +32,7 @@ private:
 
     static void _ShowCurrenciesListScreen()
     {
-        cout << "\nCurriencies List Screen Will Be Here.\n";
+        clsCurrenciesListScreen::ShowCurrenciesListScreen();
 
     }
 
@@ -101,6 +102,7 @@ public:
 
     static void ShowCurrenciesMenu()
     {
+
 
         system("cls");
         _DrawScreenHeader("Currancy Exhange Main Screen");
