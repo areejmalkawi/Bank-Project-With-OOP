@@ -126,6 +126,7 @@
     <ClCompile Include="Bank-System-Project-OOP.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clsCurrencyExchangeMainScreen.h" />
     <ClInclude Include="clsDeleteUserScreen.h" />
     <ClInclude Include="clsFindUserScreen.h" />
     <ClInclude Include="clsLoginRegisterScreen.h" />
