@@ -129,11 +129,13 @@
     <ClInclude Include="clsCurrenciesListScreen.h" />
     <ClInclude Include="clsCurrencyExchangeMainScreen.h" />
     <ClInclude Include="clsDeleteUserScreen.h" />
+    <ClInclude Include="clsFindCurrencyScreen.h" />
     <ClInclude Include="clsFindUserScreen.h" />
     <ClInclude Include="clsLoginRegisterScreen.h" />
     <ClInclude Include="clsLoginScreen.h" />
     <ClInclude Include="clsTransferLogScreen.h" />
     <ClInclude Include="clsTransferScreen.h" />
+    <ClInclude Include="clsUpdateCurrencyRateScreen.h" />
     <ClInclude Include="clsUpdateUserScreen.h" />
     <ClInclude Include="Global.h" />
   </ItemGroup>
